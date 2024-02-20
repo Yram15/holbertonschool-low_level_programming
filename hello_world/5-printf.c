@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-*main - print the string in the put function
+*main - Entry point
 *
 *Description: using the main function
 *this program prints with proper grammar, but theoutcome is a piece of art,
