@@ -6,7 +6,7 @@
  *
  * Your program should return 0
  */
-int main (void)
+int main(void)
 {
 char C;
 int i;
@@ -14,10 +14,10 @@ long li;
 long long lli;
 float f;
 
-printf("size of a char: %ld byte (s)\n", sizeof(c));
+printf("size of a char: %ld byte(s)\n", sizeof(c));
 printf("size of a int: %ld byte(s)\n", sizeof(i));
-printt("size of a long: %ld byte(s)\n", sizeot(li));
-printf("size of a long long: %ld byte(s)\n", sizeot (lli));
-printf("size of a float: %ld byte(s)\n", sizeot(f));
+printt("size of a long: %ld byte(s)\n", sizeof(li));
+printf("size of a long long: %ld byte(s)\n", sizeof(lli));
+printf("size of a float: %ld byte(s)\n", sizeof(f));
 return (0);
 }
