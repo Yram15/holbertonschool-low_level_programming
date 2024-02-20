@@ -3,9 +3,7 @@
 /**
 *main - Entry point
 *
-*Description: using the main function
-*this program prints with proper grammar, but theoutcome is a piece of art,
-*Return: 0
+*Return: Always 0 (Success)
 */
 int main(void)
 { 
