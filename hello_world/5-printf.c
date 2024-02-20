@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
 *main - print the string in the put function
 *
@@ -8,4 +7,5 @@
 *Return: 0
 */
 int main(void)
-{ printf("whit proper grammar, but the outcome is a piece of art,\n"); }
+{ printf("whit proper grammar, but the outcome is a piece of art,\n"); 
+}
