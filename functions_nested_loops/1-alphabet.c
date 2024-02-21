@@ -1,12 +1,12 @@
 #include "main.h"
-
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_alphabet - make alphabet* Return: void
  */
-int main(void)
+
+void print_alphabet(void)
 {
-print_alphabet('\n');
-return (0);
+char ch;
+for (ch = 'a'; ch <= 'z'; ch++)
+_putchar(ch);
+_putchar('\n');
 }
