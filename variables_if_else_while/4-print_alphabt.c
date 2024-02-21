@@ -12,9 +12,9 @@ char ch;
 for (ch = 'a' ; ch <= 'z' ; ch++)
 {
 putchar(ch);
-}
-if (ch != 'e' && ch != 'q')
 {
+if (ch != 'e' && ch != 'q')
+}
 putchar(ch);
 }
    putchar('\n');
