@@ -1,24 +1,6 @@
-#tifndef MAIN_H
-#Idefine MAIN_H
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
-/**
-*main - header file for prototypes
-*void prototypes (void)
-*int prottotypes (int)
-*/
+int _isupper(int c);
 
-void printnumbers(void);
-void print_most_numbers(void);
-void more numbers (void);
-void print_line(int n);
-void print diagonal(int n);
-void print_square(int size);
-void print_triangle(int size);
-void print_number(int n);
-int _putchar (char);
-int _isupper (int);
-int _isdigit (int);
-int mul(int, int);
-
-#endif /* MAIN_H */
-
+#endif
