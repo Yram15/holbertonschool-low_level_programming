@@ -6,7 +6,7 @@
 * @argv: array of arguments
 * Return: always 0 (success)
 */
-int main(int argc _attribute__((unused)), char *argv[])
+int main(int argc_attribute__((unused)), char *argv[])
 {
 printf("s\n", *argv);
 return (0);
