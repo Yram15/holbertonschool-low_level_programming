@@ -12,7 +12,7 @@ char *aaa;
 int i, r = 0;
 if (str == NULL)
 return (NULL);
-1 = 0;
+i = 0;
 while (str[i] != ('\0')
 i++;
 aaa = malloc(sizeof(char) * (i + 1));
