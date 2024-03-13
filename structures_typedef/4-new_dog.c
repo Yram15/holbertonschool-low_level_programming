@@ -16,16 +16,16 @@ dog_t *new_dog(char *name, float age, char *owner)
     i++;
   while (owner[j] != '\0')
     j++;
-  doge = nalloc(sizeof(dog_t));
+  doge = malloc(sizeof(dog_t));
 if (doge == NULL)
   {
 free(doge);
 return (NULL);
   }
-doge->nane = malloc(i * sizeof(doge->name));
+doge->name = malloc(i * sizeof(doge->name));
 if (doge->name == NULL)
   {
-free(doge->nane);
+free(doge->name);
 free(doge);
 return (NULL);
   }
@@ -40,7 +40,7 @@ free(doge->name);
 free(doge);
 return (NULL);
   }
-for (k = O; k <= j; k++)
+for (k = 0; k <= j; k++)
 doge->owner[k] = owner[k];
 return (doge);
 }
