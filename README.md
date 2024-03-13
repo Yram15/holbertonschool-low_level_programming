@@ -1,1 +1,1 @@
-AAAAAAHAHAHAAHHAHH
+C - Structures, typedef
